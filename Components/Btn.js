@@ -4,7 +4,7 @@ import { useFonts } from "@expo-google-fonts/inter";
 import AppLoading from "expo-app-loading";
 const Btn = props => {
   const Bg = props.Color;
-
+  const txtcolor = props.Txt;
   let [fontsLoaded] = useFonts({
     "Roboto-Medium": require("../Assets/fonts/Roboto-Medium.ttf"),
   });
@@ -20,7 +20,7 @@ const Btn = props => {
           width: 155,
           height: 50,
 
-          borderRadius: 10,
+          borderRadius: 20,
           backgroundColor: Bg,
         }}
       >
@@ -30,6 +30,7 @@ const Btn = props => {
             textAlign: "center",
             fontSize: 16,
             fontFamily: "Roboto-Medium",
+            color: txtcolor ? txtcolor : "black",
           }}
         >
           {props.Name}

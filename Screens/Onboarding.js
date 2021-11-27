@@ -17,7 +17,7 @@ const Onboarding = props => {
           justifyContent: "space-between",
         }}
       >
-        <TouchableOpacity>
+        <TouchableOpacity onPress={() => props.navigation.navigate("SignUp")}>
           <Btn Name={"Sign Up"} />
         </TouchableOpacity>
         <TouchableOpacity
