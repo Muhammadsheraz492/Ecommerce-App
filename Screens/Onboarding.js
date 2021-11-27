@@ -1,6 +1,6 @@
 import React from "react";
 import { View, Text, Touchable } from "react-native";
-import { TouchableOpacity } from "react-native-gesture-handler";
+import { ScrollView, TouchableOpacity } from "react-native-gesture-handler";
 import Btn from "../Components/Btn";
 import SwiperScreen from "../Components/SwiperScreen";
 const Onboarding = () => {

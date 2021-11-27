@@ -11,7 +11,7 @@ import {
 } from "react-native";
 import { Title } from "react-native-paper";
 import { SwiperFlatList } from "react-native-swiper-flatlist";
-import { CustomPagination } from "./CustomPagination";
+import { CustomPagination } from "../Components/CustomPagination";
 const { width, height } = Dimensions.get("window");
 
 export default SwiperScreen = () => {
