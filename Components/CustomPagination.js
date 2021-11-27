@@ -7,6 +7,8 @@ const styles = StyleSheet.create({
     bottom: 140,
   },
   pagination: {
+    height: 10,
+    width: 10,
     borderRadius: 700,
   },
 });

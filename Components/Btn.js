@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import { View, Text } from "react-native";
 import { useFonts } from "@expo-google-fonts/inter";
 import AppLoading from "expo-app-loading";
-const Btn = () => {
+const Btn = props => {
+  const Bg = props.Color;
+
   let [fontsLoaded] = useFonts({
     "Roboto-Medium": require("../Assets/fonts/Roboto-Medium.ttf"),
   });
@@ -19,7 +21,7 @@ const Btn = () => {
           height: 50,
 
           borderRadius: 20,
-          backgroundColor: "#FFC33A",
+          backgroundColor: Bg,
         }}
       >
         <Text
@@ -30,7 +32,7 @@ const Btn = () => {
             fontFamily: "Roboto-Medium",
           }}
         >
-          Sign In
+          {props.Name}
         </Text>
       </View>
     );
