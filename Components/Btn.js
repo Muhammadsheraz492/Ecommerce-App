@@ -20,7 +20,7 @@ const Btn = props => {
           width: 155,
           height: 50,
 
-          borderRadius: 20,
+          borderRadius: 10,
           backgroundColor: Bg,
         }}
       >
