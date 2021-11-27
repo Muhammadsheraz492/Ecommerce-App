@@ -4,7 +4,7 @@ import SplashComponents from "../Components/SplashComponents";
 const Splash = () => {
   return (
     <View style={{ flex: 1 }}>
-      <SplashComponents Name={"Lifeo"} />
+      <SplashComponents Name={"Jello"} />
     </View>
   );
 };
