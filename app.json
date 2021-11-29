@@ -1,10 +1,15 @@
 {
   "expo": {
     "name": "ecommerce",
+    "icon": "./Assets/IMages/Log.png",
     "slug": "ecommerce",
     "version": "1.0.0",
     "assetBundlePatterns": ["**/*"],
-    "orientation": "portrait"
+    "orientation": "portrait",
+    "android": {
+      "package": "com.Codek.ecommerce",
+      "versionCode": 1
+    }
   },
   "name": "ecommerce"
 }

@@ -7,7 +7,7 @@ import { Title } from "react-native-paper";
 import LargeBtn from "../Components/LargeBtn";
 import Btn from "../Components/Btn";
 
-const SignUp = () => {
+const SignUp = props => {
   const [Email, setEmail] = useState("");
   const [Password, setPassword] = useState("");
 
